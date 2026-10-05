@@ -1,0 +1,1196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Interesting videos, distilled.</title>
+    <link>https://vid-analysis.devbionics.com/</link>
+    <description>New video analyses with key takeaways, research, and verdicts.</description>
+    <language>en-us</language>
+    <generator>Video inbox / Hugo</generator>
+    <ttl>5</ttl>
+    <atom:link href="https://vid-analysis.devbionics.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Oct 2026 09:52:05 +0000</lastBuildDate>
+    <item>
+      <title>Please stop using stupid models</title>
+      <link>https://vid-analysis.devbionics.com/videos/iBrAWpjXNxs.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/iBrAWpjXNxs.html</guid>
+      <pubDate>Mon, 05 Oct 2026 09:52:05 +0000</pubDate>
+      <description>Theo calls the scope of delegated work prompt width. A narrow request names the file and the edit; a wide request starts with a bug report and includes investigation, implementation, verification, PR preparation, and follow-up on review. At 9:39 he describes handing over a screenshot and asking for a tested fix with a video and PR link. The work spans more steps even when each step is ordinary.</description>
+    </item>
+    <item>
+      <title>Fixing the PR Bottleneck — Matt Pocock, AIHero</title>
+      <link>https://vid-analysis.devbionics.com/videos/LlgiOCmFG_w.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/LlgiOCmFG_w.html</guid>
+      <pubDate>Thu, 01 Oct 2026 15:51:52 +0000</pubDate>
+      <description>Agents can increase incoming work without increasing an organization's capacity to judge it. Pocock's “brakes” are three layers: deterministic checks, automated review, and human review. Better upstream filtering should leave humans a smaller and clearer decision. His most useful move is to treat a review comment as evidence about the production process, not just the current patch.</description>
+    </item>
+    <item>
+      <title>The End of TCP for AI Clusters — John Ousterhout, Stanford</title>
+      <link>https://vid-analysis.devbionics.com/videos/eZ8WWZzoaR0.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/eZ8WWZzoaR0.html</guid>
+      <pubDate>Thu, 17 Sep 2026 17:51:46 +0000</pubDate>
+      <description>Inference and agentic applications may combine large data transfers with small, latency-sensitive metadata or synchronization RPCs. Those short exchanges can hold up expensive computation even when aggregate network throughput looks good. Homa combines message-length awareness, receiver-issued grants and switch priorities to favor short work without serializing unrelated messages into one byte stream.</description>
+    </item>
+    <item>
+      <title>BM25 for agentic search: strong primitive, not a universal solution</title>
+      <link>https://vid-analysis.devbionics.com/videos/fZH97QHHYjY.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/fZH97QHHYjY.html</guid>
+      <pubDate>Wed, 16 Sep 2026 15:51:48 +0000</pubDate>
+      <description>BM25 has not suddenly acquired reasoning. Its user has changed: an agent can formulate, inspect, and reformulate many queries inside a task loop. That makes a familiar lexical scorer useful in new workflows, particularly when combined with selective document reading and local verification.</description>
+    </item>
+    <item>
+      <title>Design knowledge agents around evidence, not just coding tools</title>
+      <link>https://vid-analysis.devbionics.com/videos/O84lhGc1OOI.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/O84lhGc1OOI.html</guid>
+      <pubDate>Wed, 16 Sep 2026 15:51:48 +0000</pubDate>
+      <description>A coding assistant is one kind of knowledge worker, not a universal template for all knowledge work. Open-ended document research needs intent clarification, appropriate evidence retrieval, decomposition, and synthesis. Better tools and better organization should be designed together.</description>
+    </item>
+    <item>
+      <title>How We Solved Agent Building — Andrew Qu, Vercel</title>
+      <link>https://vid-analysis.devbionics.com/videos/9dYcwOkpCE8.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/9dYcwOkpCE8.html</guid>
+      <pubDate>Tue, 15 Sep 2026 15:51:47 +0000</pubDate>
+      <description>Video analysis of How We Solved Agent Building — Andrew Qu, Vercel. Read the research, verdicts, and practical takeaways.</description>
+    </item>
+    <item>
+      <title>Design at the Speed of Adjectives — Paul Bakaus</title>
+      <link>https://vid-analysis.devbionics.com/videos/v42opQpCy60.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/v42opQpCy60.html</guid>
+      <pubDate>Sat, 12 Sep 2026 17:51:45 +0000</pubDate>
+      <description>The useful level of control often lies between editing individual pixels and delegating the entire design process. A word such as “bolder” becomes productive when a skill gives it domain meaning and project context. Humans retain authority over direction; the agent translates intent into implementation.</description>
+    </item>
+    <item>
+      <title>Intent-driven UX: how to make generative interfaces controllable</title>
+      <link>https://vid-analysis.devbionics.com/videos/QrMcNe2jjt8.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/QrMcNe2jjt8.html</guid>
+      <pubDate>Mon, 07 Sep 2026 15:51:50 +0000</pubDate>
+      <description>Generative UI becomes credible when the model does not receive unlimited freedom. The useful middle ground is a declarative protocol: an orchestrator resolves intent and data, an agent selects from a curated component catalog, layout rules constrain information architecture, a schema validates the description, and the client renders native design-system components. The model can adapt a screen to the task while the product team retains control over safety, consistency, copy, and interaction quality.</description>
+    </item>
+    <item>
+      <title>So I tried Matt's skills... — Theo</title>
+      <link>https://vid-analysis.devbionics.com/videos/0oXOOlqVu5M.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/0oXOOlqVu5M.html</guid>
+      <pubDate>Sun, 06 Sep 2026 17:51:46 +0000</pubDate>
+      <description>Small, composable skill files can materially improve coding-agent work when they encode a good workflow, trigger at the right time, and are adapted to the developer's actual failure modes. The important practice is not installing a fashionable pack. It is reading the instructions, testing them on real work, measuring the result, editing what does not fit, and keeping verification close to execution.</description>
+    </item>
+    <item>
+      <title>From AI-assisted to AI-native: a practical audit of Amazon’s “frontier development” playbook</title>
+      <link>https://vid-analysis.devbionics.com/videos/pqlWNihgdjI.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/pqlWNihgdjI.html</guid>
+      <pubDate>Tue, 01 Sep 2026 03:51:46 +0000</pubDate>
+      <description>Liguori’s strongest claim is not that Kiro writes code unusually quickly. It is that large gains appear only when teams redesign the surrounding system: externalize tacit context, accept an initial investment period, feed agents well-scoped work, specify intent before implementation, and provide fast deterministic feedback. That is a credible engineering thesis.</description>
+    </item>
+    <item>
+      <title>Ten new AI-development repositories: what is genuinely useful, and what is hype</title>
+      <link>https://vid-analysis.devbionics.com/videos/LrHY1U03IRU.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/LrHY1U03IRU.html</guid>
+      <pubDate>Mon, 31 Aug 2026 17:51:45 +0000</pubDate>
+      <description>The video is a fast discovery list spanning four different categories: programmable agent harnesses, agent workspaces, specialist skills, content pipelines, routing infrastructure, and showcase applications. Its durable value is option discovery. Its weak point is that popularity, self-reported benchmarks, and impressive demos are repeatedly converted into “must use” recommendations without a common evaluation standard.</description>
+    </item>
+    <item>
+      <title>Uncle Bob on software fundamentals in the age of AI</title>
+      <link>https://vid-analysis.devbionics.com/videos/zcLPGC-tvgk.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/zcLPGC-tvgk.html</guid>
+      <pubDate>Wed, 19 Aug 2026 19:51:43 +0000</pubDate>
+      <description>Coding agents do not repeal software engineering. They make implementation labor cheap enough to apply previously expensive quality techniques—mutation testing, complexity checks, acceptance automation, architecture rules—continuously. Martin’s strongest idea is to move guidance out of fragile natural-language context and into deterministic feedback loops. His most controversial extension is that sufficiently strong scaffolding may let a senior engineer stop reading most generated code.</description>
+    </item>
+    <item>
+      <title>Anthropic’s CCA Exam as a Field Guide for Agentic Engineering — Frank Coyle</title>
+      <link>https://vid-analysis.devbionics.com/videos/Z-c11pV_uvU.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/Z-c11pV_uvU.html</guid>
+      <pubDate>Thu, 13 Aug 2026 11:54:04 +0000</pubDate>
+      <description>Coyle’s useful move is to treat Anthropic’s certification outline not primarily as a credential, but as a vendor-authored checklist of production failure modes: uncontrolled loops, ignored termination states, overloaded agents, context spill, interactive automation, and unbounded cost. The durable lesson is to build agents from ordinary software-engineering controls—state machines, separation of concerns, budgets, schemas, tests, and human escalation—then use the exam topics as a study map rather than proof of competence.</description>
+    </item>
+    <item>
+      <title>Give Me 50 Minutes, I'll Give You 1000+ Hours Of Claude Code Knowledge (2026 Guide)</title>
+      <link>https://vid-analysis.devbionics.com/videos/U6k4MeVks_Y.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/U6k4MeVks_Y.html</guid>
+      <pubDate>Wed, 12 Aug 2026 05:51:48 +0000</pubDate>
+      <description>The useful thesis is narrower than the title: proficiency with Claude Code comes less from “magic prompts” than from managing scope, context, reusable instructions, tools, verification, and automation boundaries. The video moves from a beginner-friendly Desktop walkthrough to skills and integrations, then to long-running loops, multi-agent workflows, model diversity, and a markdown-backed “agentic OS.”</description>
+    </item>
+    <item>
+      <title>How Kepler Built Verifiable AI for Financial Services — Vinoo Ganesh</title>
+      <link>https://vid-analysis.devbionics.com/videos/Tt2kX2sgQio.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/Tt2kX2sgQio.html</guid>
+      <pubDate>Thu, 30 Jul 2026 17:52:53 +0000</pubDate>
+      <description>Kepler’s thesis is that financial AI cannot become trusted work product through citations, evals, or better prompting alone. LLMs should reason, plan, and select sources, while deterministic systems perform retrieval, arithmetic, provenance tracking, reconciliation, and auditability.</description>
+    </item>
+    <item>
+      <title>How Forward Deployed Engineering is done at Cognition — Jia Wu</title>
+      <link>https://vid-analysis.devbionics.com/videos/RVxym6mmIns.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/RVxym6mmIns.html</guid>
+      <pubDate>Thu, 30 Jul 2026 17:52:53 +0000</pubDate>
+      <description>Cognition’s view of forward deployed engineering is that FDEs are the mechanism that turns coding agents from impressive demos into measurable enterprise outcomes. They do that by deeply understanding customer software-development workflows, mapping Devin’s capabilities to high-leverage work, and feeding field evidence back into product.</description>
+    </item>
+    <item>
+      <title>How Forward Deployed Engineering is done at Ramp — Leo Mehr</title>
+      <link>https://vid-analysis.devbionics.com/videos/ITMXwI6QL6A.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/ITMXwI6QL6A.html</guid>
+      <pubDate>Thu, 30 Jul 2026 17:52:53 +0000</pubDate>
+      <description>Ramp’s FDE practice rests on two principles: always be scoping, and scale with tokens. FDEs should not blindly say yes to customers; they should discover the smallest correct path to customer value. But in the AI era, they also need to automate their own lifecycle with agents or be outpaced by agent-native competitors.</description>
+    </item>
+    <item>
+      <title>The Dirty Secret of Forward Deployed Engineering — Natalie Meurer, Sierra</title>
+      <link>https://vid-analysis.devbionics.com/videos/Byv311hdoHE.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/Byv311hdoHE.html</guid>
+      <pubDate>Thu, 30 Jul 2026 15:47:14 +0000</pubDate>
+      <description>“Forward-deployed engineer” is not a stable job essence. The work evolved with the platform—from on-prem operations, to data integration, to custom applications, to enabling customers—and the useful design question is which customer-accountable capabilities are currently missing, not what title to copy.</description>
+    </item>
+    <item>
+      <title>Forward Deployed Engineering 101 — Kevin Bai, Anthropic, ex Palantir &amp; Rippling Founding FDE</title>
+      <link>https://vid-analysis.devbionics.com/videos/KwhgfwOSToQ.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/KwhgfwOSToQ.html</guid>
+      <pubDate>Thu, 30 Jul 2026 15:47:13 +0000</pubDate>
+      <description>Forward-deployed engineering fits a narrow go-to-market problem: highly technical, configurable software sold to nontechnical organizations that cannot realize value alone. It works economically only when engineers assemble outcomes from a reusable platform; otherwise the company becomes a bespoke dev shop with compounding maintenance cost.</description>
+    </item>
+    <item>
+      <title>From Agent Traces to Agent Simulations — Rustem Feyzkhanov, Snorkel AI</title>
+      <link>https://vid-analysis.devbionics.com/videos/Ib5t2RLtxvM.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/Ib5t2RLtxvM.html</guid>
+      <pubDate>Thu, 30 Jul 2026 15:47:10 +0000</pubDate>
+      <description>Production traces reveal failures but do not provide controlled comparison. Convert representative traces into private, reproducible simulation tasks with a mini-production environment, hidden oracle/verifiers, and metrics for success, cost, latency, and retries; then use them as release gates and learning data.</description>
+    </item>
+    <item>
+      <title>Evaling Video Slop — Maor Bril, Character.ai</title>
+      <link>https://vid-analysis.devbionics.com/videos/b_PmGocP4rc.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/b_PmGocP4rc.html</guid>
+      <pubDate>Thu, 30 Jul 2026 15:47:10 +0000</pubDate>
+      <description>Video quality cannot be reduced to frame similarity. A useful evaluator must cover prompt adherence, temporal consistency, physics, story, pacing, and audio synchronization; pairwise comparison and a fast distilled VLM can make this operational, but only after calibration against human preferences and hard negative cases.</description>
+    </item>
+    <item>
+      <title>How Evals and Prompts Shape Agent Behavior — Preetika Bhateja &amp; Daniel Bump, YouTube Ads</title>
+      <link>https://vid-analysis.devbionics.com/videos/xyL2Ltkh-SA.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/xyL2Ltkh-SA.html</guid>
+      <pubDate>Thu, 30 Jul 2026 15:47:09 +0000</pubDate>
+      <description>Reliable agent development is a staged hill-climb: strengthen tools first, explore failures manually, start with a small positive-and-negative golden set, collect rater explanations, calibrate automated judges to humans, and expand only after the rubric becomes stable.</description>
+    </item>
+    <item>
+      <title>Harness Engineering is not Enough: Why Software Factories Fail — Dex Horthy, HumanLayer</title>
+      <link>https://vid-analysis.devbionics.com/videos/Ib5GBkD555M.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/Ib5GBkD555M.html</guid>
+      <pubDate>Thu, 30 Jul 2026 15:47:06 +0000</pubDate>
+      <description>AI can compress implementation time without preserving long-term codebase quality. “Lights-off” factories fail when generated volume outruns architectural understanding, review, and feedback from maintenance. Use agents aggressively for bounded work, but make maintainability and human steering explicit release constraints.</description>
+    </item>
+    <item>
+      <title>From Signal to PR: Anatomy of a Self-Improving Agent — Jason Lopatecki, Arize</title>
+      <link>https://vid-analysis.devbionics.com/videos/9HbzAWnKbo4.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/9HbzAWnKbo4.html</guid>
+      <pubDate>Thu, 30 Jul 2026 15:47:06 +0000</pubDate>
+      <description>Telemetry becomes much more useful when an agent can gather trace, log, code, and repository context, reproduce an incident in a sandbox, and draft a tested PR. The real bottleneck is confidence: evidence quality, permissions, validation, and approval—not generating a plausible patch.</description>
+    </item>
+    <item>
+      <title>The Future of Evals: From LLM as a Judge to Agent as a Judge — Aparna Dhinakaran, Arize AI</title>
+      <link>https://vid-analysis.devbionics.com/videos/q2JrUKBMf0w.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/q2JrUKBMf0w.html</guid>
+      <pubDate>Thu, 30 Jul 2026 15:47:05 +0000</pubDate>
+      <description>As agents take longer, branching trajectories and change UI/state through tools, fixed rubric judges remain useful but no longer cover the whole failure surface. Add trace-aware, adaptive investigation agents on top of deterministic checks and calibrated rubric judges—do not replace the cheaper layers.</description>
+    </item>
+    <item>
+      <title>Learned Execution Graphs for Anomaly Detection &amp; Drift in APIs — Ritvik Pandya, JP Morgan Chase</title>
+      <link>https://vid-analysis.devbionics.com/videos/u1yaOeEX4e8.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/u1yaOeEX4e8.html</guid>
+      <pubDate>Thu, 30 Jul 2026 13:47:28 +0000</pubDate>
+      <description>Representing each request as a short-lived execution DAG makes order, parallelism, retries, context propagation, and latency attribution explicit. Learned baselines over these graphs can detect structural anomalies and gradual drift that aggregate endpoint metrics hide.</description>
+    </item>
+    <item>
+      <title>Why We Killed Our Multi-Agent Pipeline — Subbiah Sethuraman and Abhilash Asokan, ZS Associates</title>
+      <link>https://vid-analysis.devbionics.com/videos/u6jJcIFDLE4.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/u6jJcIFDLE4.html</guid>
+      <pubDate>Thu, 30 Jul 2026 13:47:27 +0000</pubDate>
+      <description>Multi-agent decomposition is not automatically better. When agents share fuzzy responsibilities, lossy handoffs, and independent context, coordination overhead and error compounding can outweigh specialization; a simpler orchestrated workflow often wins.</description>
+    </item>
+    <item>
+      <title>Citation Needed: Provenance for LLM-Built Knowledge Graphs — Daniel Chalef, Zep AI</title>
+      <link>https://vid-analysis.devbionics.com/videos/H7puB0RwJMM.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/H7puB0RwJMM.html</guid>
+      <pubDate>Thu, 30 Jul 2026 13:47:23 +0000</pubDate>
+      <description>A knowledge graph built by an LLM is useful only if every extracted fact can be traced to source text, time, and transformation history. Provenance is not decorative citation; it is the mechanism for correction, conflict handling, and trust.</description>
+    </item>
+    <item>
+      <title>Agentic Security: Permissions, Provenance, and the Agent Supply Chain — Steve Yegge, Gas Town</title>
+      <link>https://vid-analysis.devbionics.com/videos/yWS0udrIOc8.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/yWS0udrIOc8.html</guid>
+      <pubDate>Thu, 30 Jul 2026 13:47:22 +0000</pubDate>
+      <description>Agent ecosystems turn prompts, skills, plugins, MCP servers, packages, and generated artifacts into one connected supply chain. Security therefore requires provenance, capability boundaries, sandboxing, and review across the entire execution path.</description>
+    </item>
+    <item>
+      <title>CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens — Stephen Chin, Neo4j</title>
+      <link>https://vid-analysis.devbionics.com/videos/Q0VkgCyNVUg.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/Q0VkgCyNVUg.html</guid>
+      <pubDate>Thu, 30 Jul 2026 13:47:18 +0000</pubDate>
+      <description>Long-lived assistants need selective, structured recall rather than continually loading markdown. A temporal/property graph can represent entities, relationships, provenance, and change—but it should complement compact files and retrieval evals, not become an automatic memory dump.</description>
+    </item>
+    <item>
+      <title>Agentic Development Security — Ezra Tanzer, Snyk</title>
+      <link>https://vid-analysis.devbionics.com/videos/cgimkNGNjvU.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/cgimkNGNjvU.html</guid>
+      <pubDate>Thu, 30 Jul 2026 13:47:17 +0000</pubDate>
+      <description>Agent security has three distinct surfaces: generated code, the tools/skills/MCP servers the agent can access, and the actions it can take. Reliable controls must be deterministic, least-privileged, and outside prompt-following alone.</description>
+    </item>
+    <item>
+      <title>Let's integrate AI Agents in Event-Sourced Systems — Divakar Kumar, FlyersSoft</title>
+      <link>https://vid-analysis.devbionics.com/videos/o6U_2vd967Y.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/o6U_2vd967Y.html</guid>
+      <pubDate>Thu, 30 Jul 2026 13:47:13 +0000</pubDate>
+      <description>Do not replace deterministic fraud controls with an LLM. Route only ambiguous “gray-zone” cases to a bounded agent that reads projections from existing domain events, produces a reasoned recommendation, and leaves final policy enforcement auditable and reversible.</description>
+    </item>
+    <item>
+      <title>In the Land of AI Agents, the Verifiers Are King — Tariq Shaukat, Sonar</title>
+      <link>https://vid-analysis.devbionics.com/videos/VrpEyglYgeU.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/VrpEyglYgeU.html</guid>
+      <pubDate>Thu, 30 Jul 2026 13:47:12 +0000</pubDate>
+      <description>AI coding agents create value only when guidance, deterministic checks, and feedback are designed into the development loop; generation speed without verification merely moves work into security, review, and technical-debt queues.</description>
+    </item>
+    <item>
+      <title>Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta &amp; Jai Chopra, Uber</title>
+      <link>https://vid-analysis.devbionics.com/videos/31GUkCBD-Uc.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/31GUkCBD-Uc.html</guid>
+      <pubDate>Tue, 28 Jul 2026 11:51:39 +0000</pubDate>
+      <description>A production multimodal agent should not be treated as one model with one score. It is a routed, observable system whose components—understanding, routing, prompt generation, image editing, iterative QA, and final publishing—need separate objectives, failure datasets, guardrails, and feedback loops. The valuable idea is not “let agents improve themselves”; it is use traceable production evidence to propose bounded changes, replay them against human-aligned gates, and publish only when safety and product metrics both hold.</description>
+    </item>
+    <item>
+      <title>Every company should have a Brain — Garry Tan, Y Combinator</title>
+      <link>https://vid-analysis.devbionics.com/videos/eBUyTS7SzV4.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/eBUyTS7SzV4.html</guid>
+      <pubDate>Fri, 24 Jul 2026 13:52:01 +0000</pubDate>
+      <description>Garry argues that AI-native companies gain leverage not mainly from better models but from how they wire work: skill files as employees, resolver tables as org charts, process files as operating procedures, and evals as performance reviews. Every company, in this frame, needs a "brain" that agents can use as institutional memory and routing logic.</description>
+    </item>
+    <item>
+      <title>Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind</title>
+      <link>https://vid-analysis.devbionics.com/videos/0vphxNt4wyk.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/0vphxNt4wyk.html</guid>
+      <pubDate>Fri, 24 Jul 2026 13:51:59 +0000</pubDate>
+      <description>Skills can improve agent performance, but shipping untested skill files is equivalent to merging untested production code. Because agents are non-deterministic, teams need evals to distinguish a bad skill, a bad trigger, and a task the model cannot currently solve.</description>
+    </item>
+    <item>
+      <title>Training Frontier Models to Out-Think Hackers — Uri Rolls, Arithmetic &amp; Thom Wolf, Hugging Face</title>
+      <link>https://vid-analysis.devbionics.com/videos/O-CBZ3JtRvo.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/O-CBZ3JtRvo.html</guid>
+      <pubDate>Fri, 24 Jul 2026 13:51:58 +0000</pubDate>
+      <description>The talk argues that AI will change cyber economics: attackers can probe many targets cheaply, so defenders need models that can reason about complex systems at least as well as offensive agents. Masov is presented as a benchmark for one hard slice of this problem: black-box, multi-step access-control exploitation where success requires building a working model of system state rather than pattern-matching known bugs.</description>
+    </item>
+    <item>
+      <title>How This Ex-Meta L8 Engineer Ships 40 PRs a Day with AI Agents | Kun Chen</title>
+      <link>https://vid-analysis.devbionics.com/videos/88B6DimMD2g.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/88B6DimMD2g.html</guid>
+      <pubDate>Tue, 23 Jun 2026 01:52:10 +0000</pubDate>
+      <description>Kun’s thesis is that AI-agent coding changes the bottleneck from typing code to specifying, isolating, validating, and coordinating many agent runs. The engineer’s job shifts toward product judgment, spec quality, workflow design, and risk-based review. I agree with the direction, but not with the strongest interpretation that humans should generally leave the loop: this is credible for solo tools and low-risk PRs, dangerous for production systems unless paired with rigorous tests, security gates, observability, ownership, and selective human review.</description>
+    </item>
+    <item>
+      <title>Yann LeCun: World Models: Enabling the Next AI Revolution</title>
+      <link>https://vid-analysis.devbionics.com/videos/72Xj8k5WQX4.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/72Xj8k5WQX4.html</guid>
+      <pubDate>Sun, 21 Jun 2026 17:52:07 +0000</pubDate>
+      <description>LeCun argues that today’s dominant generative and language-model approaches are insufficient for grounded intelligence. Human and animal intelligence is adaptive: it learns from observation, builds predictive abstractions of the world, and plans by optimizing over imagined outcomes. The proposed path is joint-embedding predictive architectures, energy-based models, and latent-space world models rather than pixel/video generation or text-only scaling.</description>
+    </item>
+    <item>
+      <title>The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks</title>
+      <link>https://vid-analysis.devbionics.com/videos/ObTPqBGsEbA.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/ObTPqBGsEbA.html</guid>
+      <pubDate>Sun, 21 Jun 2026 17:52:06 +0000</pubDate>
+      <description>Production AI fails when teams treat models as the center of the system. Bhaumik argues that reliable enterprise agents require five pillars before and during implementation: evaluation, observability/tracing, data foundation, orchestration, and governance. The memorable formulation is that production AI must be visible, measurable, and accountable.</description>
+    </item>
+    <item>
+      <title>The best AI agents are simpler than you think</title>
+      <link>https://vid-analysis.devbionics.com/videos/uCKhOmth2ms.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/uCKhOmth2ms.html</guid>
+      <pubDate>Sat, 20 Jun 2026 15:51:54 +0000</pubDate>
+      <description>The best production agents are often simpler at the user-facing level — one brand-representing agent with excellent context, evals, governance, and workflow fit — but complex under the hood where latency, retrieval, model routing, payments, memory, and monitoring are engineered as separate reliable subsystems.</description>
+    </item>
+    <item>
+      <title>The Future of AI Agents with Andrew Ng | Interrupt 26</title>
+      <link>https://vid-analysis.devbionics.com/videos/OaRhpwz_TGM.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/OaRhpwz_TGM.html</guid>
+      <pubDate>Sat, 20 Jun 2026 15:51:47 +0000</pubDate>
+      <description>Ng’s thesis is that coding agents have accelerated software creation enough that the scarce resource shifts from writing code to deciding, coordinating, verifying, and commercializing what should be built. The future team is smaller, more technical, more generalist, and more dependent on fresh context, evals, guardrails, and data architecture.</description>
+    </item>
+    <item>
+      <title>Software engineering at the tipping point</title>
+      <link>https://vid-analysis.devbionics.com/videos/2n41YjR5QfU.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/2n41YjR5QfU.html</guid>
+      <pubDate>Sun, 07 Jun 2026 17:51:49 +0000</pubDate>
+      <description>Software engineering is entering an AI-driven “tipping point,” but the main risk is not just faster code generation. The main risk is systemic: AI amplifies existing developer ecosystems. Strong cultures, platforms, feedback loops, and validation strategies can channel that amplification productively; weak ones may get more code, more noise, more risk, and less human understanding.</description>
+    </item>
+    <item>
+      <title>Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google</title>
+      <link>https://vid-analysis.devbionics.com/videos/_B4Pv9ttFgY.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/_B4Pv9ttFgY.html</guid>
+      <pubDate>Sun, 07 Jun 2026 03:51:37 +0000</pubDate>
+      <description>Agents are a distinct user class. They may share human goals—debug the page, fix the layout, improve performance—but their bottlenecks differ: context size, tool-selection ambiguity, recovery loops, and security/trust boundaries. Building good agent interfaces therefore means designing the “UI” as schemas, summaries, tools, recovery hints, metrics, and permission boundaries rather than visual panels.</description>
+    </item>
+    <item>
+      <title>Everything We Got Wrong About Research-Plan-Implement — Dexter Horthy</title>
+      <link>https://vid-analysis.devbionics.com/videos/YwZR6tc7qYg.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/YwZR6tc7qYg.html</guid>
+      <pubDate>Sat, 06 Jun 2026 17:51:38 +0000</pubDate>
+      <description>Research-Plan-Implement was useful but too monolithic and too dependent on expert prompting. The revised thesis is: do not outsource engineering thinking, do not trust huge plans as the review target, keep research factual, align on design and structure in short artifacts, then read and own the code.</description>
+    </item>
+    <item>
+      <title>BDD, ADR, PRD, WTF: Capturing Decisions for Humans and AI Alike — Michal Cichra, Safe Intelligence</title>
+      <link>https://vid-analysis.devbionics.com/videos/504PvfXou5Y.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/504PvfXou5Y.html</guid>
+      <pubDate>Sat, 06 Jun 2026 17:51:35 +0000</pubDate>
+      <description>AI makes old software-memory problems show up faster. Teams already forgot why flows, features, and architecture exist; LLM agents also lose context, compact conversations, and have no durable memory unless decisions are written down and linked to enforcement. Cichra’s thesis is that ADRs, PRDs, BDD, design systems, hooks, CI, skills, and linters form a practical memory-and-feedback loop for humans and agents.</description>
+    </item>
+    <item>
+      <title>Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw</title>
+      <link>https://vid-analysis.devbionics.com/videos/pmoDeA3RBZY.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/pmoDeA3RBZY.html</guid>
+      <pubDate>Fri, 05 Jun 2026 17:51:35 +0000</pubDate>
+      <description>Vincent argues that AI-assisted software work is moving from individual coding to “factory management”: many concurrent agent sessions, reusable skills, orchestration, evals, and human judgment. The provocative commit counts are less important than the operating model: engineers become supervisors of many semi-autonomous development lanes, and the bottleneck shifts to taste, prioritization, test harnesses, and knowing when to stop a bad run.</description>
+    </item>
+    <item>
+      <title>GPT-5.5 深入解析：為什麼從 Claude Code 跳到 Codex？ — Just Kidding Tech</title>
+      <link>https://vid-analysis.devbionics.com/videos/34H_7DAUV-A.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/34H_7DAUV-A.html</guid>
+      <pubDate>Thu, 04 Jun 2026 06:56:05 +0000</pubDate>
+      <description>GPT-5.5 plus the newer Codex app experience made Codex feel like a more complete everyday agent environment than Claude Code for this creator/developer’s workflow. The practical shift is from “which model writes better code?” to “which agent environment can run the whole work loop: plan, implement, test in browser, operate the computer, use plugins, manage sessions, and fit into daily creative operations?”</description>
+    </item>
+    <item>
+      <title>Building a Second Brain: Opportunities, Risks, and Implications for AI Adoption in Singapore — Dr Vivian Balakrishnan</title>
+      <link>https://vid-analysis.devbionics.com/videos/t-4a20_iYhg.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/t-4a20_iYhg.html</guid>
+      <pubDate>Thu, 04 Jun 2026 06:56:05 +0000</pubDate>
+      <description>AI adoption creates the most value when ordinary practitioners use available tools to redesign their own workflows. But the human still owns understanding, judgment, and accountability. A useful second brain should augment a person’s work, not replace their responsibility.</description>
+    </item>
+    <item>
+      <title>The AI Skill I Rely On Daily — Priscila Andre de Oliveira, Sentry</title>
+      <link>https://vid-analysis.devbionics.com/videos/li0SaBt9RDM.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/li0SaBt9RDM.html</guid>
+      <pubDate>Thu, 04 Jun 2026 06:34:41 +0000</pubDate>
+      <description>The biggest unlock from AI in a large production codebase is not raw code generation; it is comprehension. AI becomes valuable when it helps engineers build, update, and verify their mental model of a complex, fast-moving system before they plan or ship changes.</description>
+    </item>
+    <item>
+      <title>Engineering voice agents: latency, quality, and scale — Rishabh Bhargava, Together AI</title>
+      <link>https://vid-analysis.devbionics.com/videos/N7b1PJc7SFc.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/N7b1PJc7SFc.html</guid>
+      <pubDate>Sun, 31 May 2026 17:51:36 +0000</pubDate>
+      <description>Voice agents are no longer primarily a research demo problem; they are a systems engineering problem where latency, intelligence, naturalness, reliability, observability, and scale all have to be solved simultaneously. The current production-favored answer is a cascaded STT → LLM/tools → TTS pipeline, while the future likely shifts toward speech-to-speech models once instruction following, tool use, evals, and auditability mature.</description>
+    </item>
+    <item>
+      <title>How OpenAI's Codex Team Builds with Codex — Alex &amp; Romain</title>
+      <link>https://vid-analysis.devbionics.com/videos/9qXc-THAvc0.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/9qXc-THAvc0.html</guid>
+      <pubDate>Sun, 31 May 2026 07:51:56 +0000</pubDate>
+      <description>The Codex team is building and using Codex as a delegation surface: fewer heavyweight specs, more parallel agent work, more builders across roles, and product design that makes multiple agents feel natural. Their workflow bets that as models improve, the scarce human work becomes choosing what to build, maintaining quality, staying close to users, and assigning accountability.</description>
+    </item>
+    <item>
+      <title>How I deleted 95% of my agent skills and got better results — Nick Nisi, WorkOS</title>
+      <link>https://vid-analysis.devbionics.com/videos/vy7o1g2iHY8.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/vy7o1g2iHY8.html</guid>
+      <pubDate>Sun, 31 May 2026 07:51:53 +0000</pubDate>
+      <description>Nick’s thesis is not “skills are bad.” It is: agents perform better when their environment enforces evidence, measures outcomes, and gives concise product-specific gotchas instead of large instruction blobs. The developer’s job shifts from writing every line to designing the harness that makes good behavior easier than lying or drifting.</description>
+    </item>
+    <item>
+      <title>AIE Singapore Day 2 ft. Google DeepMind, OpenClaw, Adaption, Arize, Cloudflare, Robot Company &amp; more</title>
+      <link>https://vid-analysis.devbionics.com/videos/m12vGjfbNlo.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/m12vGjfbNlo.html</guid>
+      <pubDate>Thu, 28 May 2026 16:54:01 +0000</pubDate>
+      <description>Livestream index with 33 segment analyses for AIE Singapore Day 2 ft. Google DeepMind, OpenClaw, Adaption, Arize, Cloudflare, Robot Company &amp; more.</description>
+    </item>
+    <item>
+      <title>AIE Singapore Day 1 ft. Minister, NanoClaw, OpenAI, Google, Vercel, Cursor &amp; more</title>
+      <link>https://vid-analysis.devbionics.com/videos/_xQnSNlBP_w.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/_xQnSNlBP_w.html</guid>
+      <pubDate>Thu, 28 May 2026 16:54:01 +0000</pubDate>
+      <description>Livestream index with 34 segment analyses for AIE Singapore Day 1 ft. Minister, NanoClaw, OpenAI, Google, Vercel, Cursor &amp; more.</description>
+    </item>
+    <item>
+      <title>Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic</title>
+      <link>https://vid-analysis.devbionics.com/videos/TqC1qOfiVcQ.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/TqC1qOfiVcQ.html</guid>
+      <pubDate>Thu, 28 May 2026 16:08:22 +0000</pubDate>
+      <description>The Claude Agent SDK packages lessons from Claude Code into an opinionated way to build agents: Unix-like primitives, bash/filesystem context engineering, code generation for non-coding tasks, skills, sub-agents, hooks, memory, permissions, and verification loops. The practical message is to prototype simply, verify aggressively, and only productionize what can be bounded and checked.</description>
+    </item>
+    <item>
+      <title>DSPy: The End of Prompt Engineering — Kevin Madura, AlixPartners</title>
+      <link>https://vid-analysis.devbionics.com/videos/-cKUW6n8hBU.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/-cKUW6n8hBU.html</guid>
+      <pubDate>Thu, 28 May 2026 16:08:20 +0000</pubDate>
+      <description>DSPy reframes prompt engineering as programming: define signatures, modules, tools, adapters, metrics, and optimizers so LLM calls become composable, typed, inspectable parts of a Python program. The “end of prompt engineering” claim is rhetorical; the stronger claim is that prompts should be generated, evaluated, and optimized inside a programmatic system.</description>
+    </item>
+    <item>
+      <title>Build a Prompt Learning Loop — SallyAnn DeLucia &amp; Fuad Ali, Arize</title>
+      <link>https://vid-analysis.devbionics.com/videos/SbcQYbrvAfI.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/SbcQYbrvAfI.html</guid>
+      <pubDate>Thu, 28 May 2026 16:08:19 +0000</pubDate>
+      <description>Prompt learning is a feedback loop for improving agent instructions using failed traces, human/SME explanations, and LLM-judge explanations. It sits between manual prompt editing and heavier fine-tuning: cheaper than model training, but more disciplined than “ask an LLM to make the prompt better.”</description>
+    </item>
+    <item>
+      <title>Leadership in AI Assisted Engineering — Justin Reock, DX / Atlassian</title>
+      <link>https://vid-analysis.devbionics.com/videos/PmZDupFP3UM.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/PmZDupFP3UM.html</guid>
+      <pubDate>Thu, 28 May 2026 16:08:17 +0000</pubDate>
+      <description>AI-assisted engineering leadership is less about forcing usage and more about building a trustworthy operating system around AI: psychological safety, education, measurable outcomes, prompt/rule feedback loops, compliance partnership, and bottleneck-focused SDLC integration.</description>
+    </item>
+    <item>
+      <title>Can Cursor's HARDCORE Review Skill Stop The Slop?</title>
+      <link>https://vid-analysis.devbionics.com/videos/mh5XZ-L5SFQ.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/mh5XZ-L5SFQ.html</guid>
+      <pubDate>Thu, 28 May 2026 15:51:39 +0000</pubDate>
+      <description>A strict AI review skill can surface meaningful architecture and maintainability problems that ordinary agent coding misses, but it needs shorter, clearer instructions, stronger test/feedback-loop requirements, and a way to manage false positives and repeatability.</description>
+    </item>
+    <item>
+      <title>Context Graphs for Explainable, Decision-Aware AI Agents — Andreas Kollegger &amp; Zaid Zaim, Neo4j</title>
+      <link>https://vid-analysis.devbionics.com/videos/abvQEhvRI_c.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/abvQEhvRI_c.html</guid>
+      <pubDate>Thu, 28 May 2026 15:51:37 +0000</pubDate>
+      <description>Neo4j’s thesis is that AI agents need more than retrieved facts and prompt instructions: they need structured context graphs that combine memory, policies, rules, precedent, authority, and risk/value reasoning so agents can explain why they acted and decide when not to act.</description>
+    </item>
+    <item>
+      <title>Ship your first Managed Agent — synthesized analysis</title>
+      <link>https://vid-analysis.devbionics.com/videos/19HDQ9HppOA.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/19HDQ9HppOA.html</guid>
+      <pubDate>Thu, 28 May 2026 15:14:19 +0000</pubDate>
+      <description>Claude Managed Agents is presented as a production-oriented agent harness: Anthropic runs the long-lived agent loop, session state, observability, sandbox/tool runtime, and scaling primitives so developers can focus on domain context, tools, and policy. The workshop grounds that thesis in a concrete SRE incident-response demo: define an agent, attach an environment, mount logs/context, stream events, execute local tools, and preserve/delete sessions.</description>
+    </item>
+    <item>
+      <title>100 Hours Testing Claude Code vs ChatGPT Codex — honest results</title>
+      <link>https://vid-analysis.devbionics.com/videos/RLjaUES9P8A.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/RLjaUES9P8A.html</guid>
+      <pubDate>Wed, 27 May 2026 17:14:47 +0000</pubDate>
+      <description>Codex vs Claude Code is not a universal winner question: Claude Code is stronger as a customizable workflow substrate, while Codex is stronger as an opinionated shipping product integrated with ChatGPT/OpenAI surfaces.</description>
+    </item>
+    <item>
+      <title>Run Frontier AI at Home — Alex Cheema, EXO Labs</title>
+      <link>https://vid-analysis.devbionics.com/videos/ESbWpPT_9-o.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/ESbWpPT_9-o.html</guid>
+      <pubDate>Wed, 27 May 2026 17:14:47 +0000</pubDate>
+      <description>Frontier-capable AI should not depend entirely on centralized clouds; local/distributed inference can reduce dependency, improve privacy/control, and exploit under-optimized consumer hardware—but it remains technically messy.</description>
+    </item>
+    <item>
+      <title>Hermes Agent Kanban Feature — Multi-Agent Content Pipeline</title>
+      <link>https://vid-analysis.devbionics.com/videos/2oKmF--xJAI.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/2oKmF--xJAI.html</guid>
+      <pubDate>Wed, 27 May 2026 17:14:45 +0000</pubDate>
+      <description>Hermes Kanban turns a single-agent chatbot into a visible task-coordination surface for parallel specialist agents, demonstrated through a content pipeline backed by Supabase.</description>
+    </item>
+    <item>
+      <title>35 Claude Code skills on GitHub — GitHub Awesome</title>
+      <link>https://vid-analysis.devbionics.com/videos/dmrMH3FaQDo.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/dmrMH3FaQDo.html</guid>
+      <pubDate>Wed, 27 May 2026 17:14:42 +0000</pubDate>
+      <description>The episode is a fast catalog of open-source agent skills; the durable takeaway is that reusable domain procedures are becoming the practical unit of agent customization.</description>
+    </item>
+    <item>
+      <title>Stop babysitting your agents — Brandon Waselnuk, Unblocked</title>
+      <link>https://vid-analysis.devbionics.com/videos/BiG2ssibKGc.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/BiG2ssibKGc.html</guid>
+      <pubDate>Wed, 27 May 2026 17:14:42 +0000</pubDate>
+      <description>Agents fail less because they get larger context windows or more tools; they fail less when organizations provide curated, conflict-aware, runtime context.</description>
+    </item>
+    <item>
+      <title>What the Best Agents Share — Mardu Swanepoel, Flinn AI</title>
+      <link>https://vid-analysis.devbionics.com/videos/7CrPrHgoEYk.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/7CrPrHgoEYk.html</guid>
+      <pubDate>Wed, 27 May 2026 17:14:41 +0000</pubDate>
+      <description>Great agents are not just smarter models; they are product systems that constrain attention, reveal process, absorb user/domain knowledge, and make mistakes reversible.</description>
+    </item>
+    <item>
+      <title>Why Rust is the Ideal Language for Vibe-Coding — Daniel Szoke, Sentry</title>
+      <link>https://vid-analysis.devbionics.com/videos/ugUeZ8-b-u0.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/ugUeZ8-b-u0.html</guid>
+      <pubDate>Wed, 27 May 2026 15:09:50 +0000</pubDate>
+      <description>Daniel Szoke argues that the popular “vibe coding” language choice is backwards. Python, JavaScript, and TypeScript are attractive because models can produce runnable code quickly, but that looseness can hide mistakes. Rust is better for serious agentic coding because its compiler and type system constrain the model, expose mistakes early, and provide concrete diagnostics the agent can use to repair its output.</description>
+    </item>
+    <item>
+      <title>The maturity phases of running evals — Phil Hetzel, Braintrust</title>
+      <link>https://vid-analysis.devbionics.com/videos/FB-MLPhL9Ms.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/FB-MLPhL9Ms.html</guid>
+      <pubDate>Wed, 27 May 2026 14:31:38 +0000</pubDate>
+      <description>Evals mature from informal human judgment into a production feedback system. The path is not “write perfect tests for every possible failure.” Instead, teams start with documented human judgment, extract failure modes, automate the parts that can be automated, then close the loop by replaying production traces through offline experiments.</description>
+    </item>
+    <item>
+      <title>Bounded Autonomy: Between Free Will and Determinism — Angus J. McLean, OLIVER</title>
+      <link>https://vid-analysis.devbionics.com/videos/t4359sKBu4w.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/t4359sKBu4w.html</guid>
+      <pubDate>Tue, 26 May 2026 12:40:44 +0000</pubDate>
+      <description>Autonomy is most useful when bounded by constraints: curated context, small/simple harnesses, explicit representations, short feedback loops, and domain-specific evaluation. More model power and more context are not automatically better; sometimes constraints improve control, creativity, and understanding.</description>
+    </item>
+    <item>
+      <title>Agentic Evaluations at Scale, For Everybody — Nicholas Kang &amp; Michael Aaron, Google DeepMind / Kaggle</title>
+      <link>https://vid-analysis.devbionics.com/videos/Ubwb6NzegyA.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/Ubwb6NzegyA.html</guid>
+      <pubDate>Tue, 26 May 2026 12:40:43 +0000</pubDate>
+      <description>AI evals are too scattered, stale, opaque, and lab-centric. Kaggle/DeepMind want more community-built, transparent, reusable, and scalable eval infrastructure: hackathons for benchmark creation, standardized agent exams for consumer agents, PvP game arenas for unsaturated leaderboards, and a benchmark platform for domain-specific tasks.</description>
+    </item>
+    <item>
+      <title>Does GenAI “belong” to data scientists? — Phil Hetzel, Braintrust</title>
+      <link>https://vid-analysis.devbionics.com/videos/NKwIX3CiRgU.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/NKwIX3CiRgU.html</guid>
+      <pubDate>Tue, 26 May 2026 12:40:43 +0000</pubDate>
+      <description>GenAI agents should not be owned exclusively by data scientists or ML engineers. Data scientists bring crucial risk, testing, statistical, fine-tuning, and judge-calibration skills; product engineers and domain experts bring API/system design, user-problem proximity, prompt/context judgment, and annotation. The practical answer is a cross-functional product team with explicit eval and observability loops.</description>
+    </item>
+    <item>
+      <title>Fast Models Need Slow Developers — Sarah Chieng, Cerebras</title>
+      <link>https://vid-analysis.devbionics.com/videos/TeGsFFNqRLA.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/TeGsFFNqRLA.html</guid>
+      <pubDate>Mon, 25 May 2026 10:19:02 +0000</pubDate>
+      <description>Ultra-fast coding models change the developer role: they make validation, exploration, steering, and frequent refactoring cheap, but they also make it easier to generate unreviewed technical debt at dangerous speed. The answer is slower, more deliberate human workflow — smaller tasks, real-time steering, externalized memory, and constant verification.</description>
+    </item>
+    <item>
+      <title>Lobster Trap: OpenClaw in Containers from Local to K8s and Back — Sally Ann O'Malley, Red Hat</title>
+      <link>https://vid-analysis.devbionics.com/videos/F1DYkY1BlfM.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/F1DYkY1BlfM.html</guid>
+      <pubDate>Mon, 25 May 2026 10:19:00 +0000</pubDate>
+      <description>OpenClaw and similar always-on agent runtimes should be packaged like serious infrastructure: reproducible containers locally, Kubernetes/OpenShift for scaled deployments, platform-managed secrets, persistent volumes for memory/state, and curated baselines for teams.</description>
+    </item>
+    <item>
+      <title>Your Coding Agent Should Do AI System Engineering — Ben Burtenshaw, Hugging Face</title>
+      <link>https://vid-analysis.devbionics.com/videos/JomVvNDjGb8.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/JomVvNDjGb8.html</guid>
+      <pubDate>Mon, 25 May 2026 10:18:59 +0000</pubDate>
+      <description>Coding agents can move beyond CRUD/product-code tasks into AI systems engineering — CUDA kernels, fine-tuning, and automated research — but only when the ecosystem exposes standard, open, reproducible primitives: skills, benchmark scripts, hub repositories, compatibility metadata, jobs, and tracking.</description>
+    </item>
+    <item>
+      <title>How we Claude Code</title>
+      <link>https://vid-analysis.devbionics.com/videos/IlqJqcl8ONE.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/IlqJqcl8ONE.html</guid>
+      <pubDate>Sat, 23 May 2026 14:40:28 +0000</pubDate>
+      <description>As coding agents become capable of longer-running, more complex work, teams need to change the artifacts around them: let the agent extract requirements interactively, use richer human-readable planning artifacts when Markdown becomes unreadable, and make verification native to the built artifact so both humans and agents can inspect the same runtime truth.</description>
+    </item>
+    <item>
+      <title>I Tried Every Popular Claude Skills System, Here is the Best</title>
+      <link>https://vid-analysis.devbionics.com/videos/VoxL_YmHR-I.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/VoxL_YmHR-I.html</guid>
+      <pubDate>Sat, 23 May 2026 12:40:16 +0000</pubDate>
+      <description>The video argues that popular Claude/agent skill systems mostly rediscover the same software-development loop: clarify the work, prototype where useful, plan small slices, build incrementally, test, review, simplify, and ship. The creator's distinctive claim is that the best skill system is not someone else's repo; it is the lightweight, evolving harness you build from your own repeated agent failures, codebase context, and team process.</description>
+    </item>
+    <item>
+      <title>/handoff is my new favourite skill</title>
+      <link>https://vid-analysis.devbionics.com/videos/dtAJ2dOd3ko.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/dtAJ2dOd3ko.html</guid>
+      <pubDate>Sat, 23 May 2026 06:40:30 +0000</pubDate>
+      <description>The video argues that a handoff skill is valuable because modern agent work is not one linear conversation. You often need to branch work into separate sessions, preserve the parent context, prototype uncertain areas, file issues, or resume later. A good handoff document deliberately compresses only the relevant slice of context so another agent can act without inheriting the full noisy conversation.</description>
+    </item>
+    <item>
+      <title>Running an AI-native engineering org</title>
+      <link>https://vid-analysis.devbionics.com/videos/IA5LWIGqnyM.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/IA5LWIGqnyM.html</guid>
+      <pubDate>Sat, 23 May 2026 06:40:29 +0000</pubDate>
+      <description>The talk argues that AI-native engineering does not merely make coding faster; it moves the bottleneck to verification, planning, review, ownership, onboarding, and knowledge sharing. Teams should rewrite norms around those new bottlenecks rather than preserving rituals designed for an era when engineering typing bandwidth was scarce.</description>
+    </item>
+    <item>
+      <title>My Full Claude Cowork Setup (steal my workflows!)</title>
+      <link>https://vid-analysis.devbionics.com/videos/gdrPkpXuNks.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/gdrPkpXuNks.html</guid>
+      <pubDate>Sat, 23 May 2026 06:40:29 +0000</pubDate>
+      <description>The video presents a personal Claude Cowork operating system: configure the assistant with PRD-first rules, pushback, documentation, and reversibility; design an initial PRD for your workspace; build a folder/data architecture; then layer daily digest, dashboards, research, meeting prep, and autonomous builder workflows on top.</description>
+    </item>
+    <item>
+      <title>This Is The Best Local Model Runner For Apple Silicon (oMLX)</title>
+      <link>https://vid-analysis.devbionics.com/videos/EsLwzxTz-A4.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/EsLwzxTz-A4.html</guid>
+      <pubDate>Wed, 20 May 2026 16:54:00 +0000</pubDate>
+      <description>oMLX is promising for local Apple Silicon agent workloads because it combines MLX unified memory with persistent KV caching, but claims depend heavily on hardware and benchmark conditions.</description>
+    </item>
+    <item>
+      <title>Graphify Solves Claude's Biggest Limitation (Finally)</title>
+      <link>https://vid-analysis.devbionics.com/videos/HQEm4rBKdec.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/HQEm4rBKdec.html</guid>
+      <pubDate>Wed, 20 May 2026 16:53:54 +0000</pubDate>
+      <description>Knowledge graphs can improve codebase research for AI assistants, but token-savings claims must be benchmarked on your repo and workflow.</description>
+    </item>
+    <item>
+      <title>Top 5 Claude Cowork Tips I Wish I Knew from Day One</title>
+      <link>https://vid-analysis.devbionics.com/videos/4wvLHFgnQZQ.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/4wvLHFgnQZQ.html</guid>
+      <pubDate>Wed, 20 May 2026 16:53:54 +0000</pubDate>
+      <description>A useful Claude Cowork setup is mostly disciplined markdown operations: lean root instructions, separate memory, routed references, and file-governance rules.</description>
+    </item>
+    <item>
+      <title>The Agent Development Lifecycle: Build, Test, Deploy, Monitor | Interrupt 26</title>
+      <link>https://vid-analysis.devbionics.com/videos/jWy39wavbjY.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/jWy39wavbjY.html</guid>
+      <pubDate>Wed, 20 May 2026 16:53:53 +0000</pubDate>
+      <description>Agents need an SDLC: build with tools/state, test trajectories, deploy stateful runtimes, monitor unique agent data, and govern the loop.</description>
+    </item>
+    <item>
+      <title>AI Coding Interview w/ Meta Staff Engineer</title>
+      <link>https://vid-analysis.devbionics.com/videos/A1kX8fJx53c.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/A1kX8fJx53c.html</guid>
+      <pubDate>Wed, 20 May 2026 16:53:48 +0000</pubDate>
+      <description>AI-enabled coding interviews reward judgment: use the assistant for comprehension, test design, and bug isolation while owning correctness and tradeoffs.</description>
+    </item>
+    <item>
+      <title>Deep Dive: How to Monitor AI Agents in Production</title>
+      <link>https://vid-analysis.devbionics.com/videos/5yXLZTIqBsU.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/5yXLZTIqBsU.html</guid>
+      <pubDate>Wed, 20 May 2026 16:53:46 +0000</pubDate>
+      <description>Production agent monitoring must capture semantic inputs, trajectories, intermediate tool calls, and eval feedback, not only APM golden signals.</description>
+    </item>
+    <item>
+      <title>Skill issue: Lessons from skilling up coding agents to use Langfuse - Marc Klingen, Clickhouse</title>
+      <link>https://vid-analysis.devbionics.com/videos/vNCY9kXXyDQ.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/vNCY9kXXyDQ.html</guid>
+      <pubDate>Wed, 20 May 2026 16:53:43 +0000</pubDate>
+      <description>Coding-agent skills work best as live, structured navigation layers over docs, APIs, and traces, not as static prompt dumps.</description>
+    </item>
+    <item>
+      <title>From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google</title>
+      <link>https://vid-analysis.devbionics.com/videos/-TiET_K-E_g.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/-TiET_K-E_g.html</guid>
+      <pubDate>Wed, 20 May 2026 16:53:40 +0000</pubDate>
+      <description>On-device agents become useful when tiny models are specialized for tool/function calling rather than treated as shrunken chatbots.</description>
+    </item>
+    <item>
+      <title>Herdr: the Tmux for AI Agents</title>
+      <link>https://vid-analysis.devbionics.com/videos/XoitaexiCi0.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/XoitaexiCi0.html</guid>
+      <pubDate>Wed, 20 May 2026 16:40:46 +0000</pubDate>
+      <description>The useful shift is not “let AI write more code”; it is designing an operating loop where agents have the right context, tools, triggers, isolation, verification, and human control points. The video is strongest when treated as workflow design evidence, not as proof that autonomy removes engineering responsibility.</description>
+    </item>
+    <item>
+      <title>Running an AI-native engineering org</title>
+      <link>https://vid-analysis.devbionics.com/videos/igO8iyca2_g.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/igO8iyca2_g.html</guid>
+      <pubDate>Wed, 20 May 2026 16:40:43 +0000</pubDate>
+      <description>The useful shift is not “let AI write more code”; it is designing an operating loop where agents have the right context, tools, triggers, isolation, verification, and human control points. The video is strongest when treated as workflow design evidence, not as proof that autonomy removes engineering responsibility.</description>
+    </item>
+    <item>
+      <title>Coding is no longer the constraint: Scaling devex to teams and agents at Spotify</title>
+      <link>https://vid-analysis.devbionics.com/videos/zFslvuvYifQ.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/zFslvuvYifQ.html</guid>
+      <pubDate>Wed, 20 May 2026 16:40:40 +0000</pubDate>
+      <description>The useful shift is not “let AI write more code”; it is designing an operating loop where agents have the right context, tools, triggers, isolation, verification, and human control points. The video is strongest when treated as workflow design evidence, not as proof that autonomy removes engineering responsibility.</description>
+    </item>
+    <item>
+      <title>From one person to 80: Scaling a hypergrowth engineering org with Claude Code</title>
+      <link>https://vid-analysis.devbionics.com/videos/VueeyKcquoA.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/VueeyKcquoA.html</guid>
+      <pubDate>Wed, 20 May 2026 16:40:39 +0000</pubDate>
+      <description>The useful shift is not “let AI write more code”; it is designing an operating loop where agents have the right context, tools, triggers, isolation, verification, and human control points. The video is strongest when treated as workflow design evidence, not as proof that autonomy removes engineering responsibility.</description>
+    </item>
+    <item>
+      <title>AI with Claude on AWS: From code to orchestration</title>
+      <link>https://vid-analysis.devbionics.com/videos/5YHIrTYxM3w.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/5YHIrTYxM3w.html</guid>
+      <pubDate>Wed, 20 May 2026 16:40:37 +0000</pubDate>
+      <description>The useful shift is not “let AI write more code”; it is designing an operating loop where agents have the right context, tools, triggers, isolation, verification, and human control points. The video is strongest when treated as workflow design evidence, not as proof that autonomy removes engineering responsibility.</description>
+    </item>
+    <item>
+      <title>What's new in Claude Code</title>
+      <link>https://vid-analysis.devbionics.com/videos/sRvUXLquiRg.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/sRvUXLquiRg.html</guid>
+      <pubDate>Wed, 20 May 2026 16:40:33 +0000</pubDate>
+      <description>The useful shift is not “let AI write more code”; it is designing an operating loop where agents have the right context, tools, triggers, isolation, verification, and human control points. The video is strongest when treated as workflow design evidence, not as proof that autonomy removes engineering responsibility.</description>
+    </item>
+    <item>
+      <title>Stop babysitting your agents</title>
+      <link>https://vid-analysis.devbionics.com/videos/wI0ptqCSL0I.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/wI0ptqCSL0I.html</guid>
+      <pubDate>Wed, 20 May 2026 16:40:33 +0000</pubDate>
+      <description>The useful shift is not “let AI write more code”; it is designing an operating loop where agents have the right context, tools, triggers, isolation, verification, and human control points. The video is strongest when treated as workflow design evidence, not as proof that autonomy removes engineering responsibility.</description>
+    </item>
+    <item>
+      <title>Build a proactive agent workflow with Claude Code</title>
+      <link>https://vid-analysis.devbionics.com/videos/eSP7PLTXNy8.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/eSP7PLTXNy8.html</guid>
+      <pubDate>Wed, 20 May 2026 16:40:31 +0000</pubDate>
+      <description>The useful shift is not “let AI write more code”; it is designing an operating loop where agents have the right context, tools, triggers, isolation, verification, and human control points. The video is strongest when treated as workflow design evidence, not as proof that autonomy removes engineering responsibility.</description>
+    </item>
+    <item>
+      <title>I Replaced Claude Design… 100% UNLIMITED — technical analysis</title>
+      <link>https://vid-analysis.devbionics.com/videos/ju-T6uQNPSg.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/ju-T6uQNPSg.html</guid>
+      <pubDate>Wed, 20 May 2026 02:40:31 +0000</pubDate>
+      <description>The video argues that Claude Design’s visual artifact workflow is valuable, but its limits and closed Anthropic-only model path are constraining; Open Design recreates much of the workflow locally and lets users route design generation through whatever coding agents, APIs, and model providers they already use.</description>
+    </item>
+    <item>
+      <title>Google I/O 2026 keynote in 35 minutes — technical analysis</title>
+      <link>https://vid-analysis.devbionics.com/videos/OMhKgQmeMhI.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/OMhKgQmeMhI.html</guid>
+      <pubDate>Wed, 20 May 2026 02:40:30 +0000</pubDate>
+      <description>Google’s I/O 2026 keynote argues that Gemini is moving from a chatbot layer into an agentic operating layer across Google’s product surface: Search, Chrome, Workspace, YouTube, Gemini app, Android/XR, developer tools, creative tools, and cloud-hosted personal agents. The deepest shift is not any one model demo; it is Google trying to make Gemini the default broker between intent, context, tools, and actions.</description>
+    </item>
+    <item>
+      <title>What Karpathy Joining Anthropic Actually Means For Claude — technical analysis</title>
+      <link>https://vid-analysis.devbionics.com/videos/brB-hSiV2iU.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/brB-hSiV2iU.html</guid>
+      <pubDate>Wed, 20 May 2026 02:40:29 +0000</pubDate>
+      <description>Karpathy joining Anthropic is best read as a convergence between two things: Anthropic’s product push around Claude/Claude Code as an agentic work environment, and Karpathy’s public focus on context engineering, LLM-maintained knowledge bases, and AI-assisted research loops. The model still matters, but the durable advantage increasingly sits in the wrapper: files, memory, tools, evaluations, permissions, workflows, and business adoption pathways.</description>
+    </item>
+    <item>
+      <title>Open Design: Why 40k Developers Abandoned Claude Design</title>
+      <link>https://vid-analysis.devbionics.com/videos/B3coWv2ZV68.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/B3coWv2ZV68.html</guid>
+      <pubDate>Wed, 20 May 2026 02:40:28 +0000</pubDate>
+      <description>Open Design is interesting because it moves AI design work away from a single proprietary canvas/model and toward a local-first, agent-agnostic workflow: choose a coding agent, combine it with skills and design systems, generate a concrete artifact, then export or hand it to an implementation agent. The tradeoff is that Claude Design’s integrated model/product polish is replaced by a more configurable but more operator-dependent stack.</description>
+    </item>
+    <item>
+      <title>How to Leverage Domain Expertise — Chris Lovejoy, Notius Labs</title>
+      <link>https://vid-analysis.devbionics.com/videos/kfSDc2eVLo4.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/kfSDc2eVLo4.html</guid>
+      <pubDate>Tue, 19 May 2026 12:40:32 +0000</pubDate>
+      <description>Chris Lovejoy argues that winning in vertical AI is less about finding the single “best model” and more about building a domain-native organization: a company structure that can continuously inject expert judgment into product quality, evaluation, and improvement. The talk’s central framework is that domain experts can act as Oracle (directly adding expertise to the product), Evaluator (defining and measuring quality), or Architect (designing systems that learn from usage and expert review).</description>
+    </item>
+    <item>
+      <title>Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize</title>
+      <link>https://vid-analysis.devbionics.com/videos/Xfl50508LZM.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/Xfl50508LZM.html</guid>
+      <pubDate>Mon, 18 May 2026 18:40:51 +0000</pubDate>
+      <description>Agent teams should treat evals as tests powered by traces: inspect real failures first, then combine deterministic, built-in, LLM, meta-eval, dataset, and experiment loops before shipping.</description>
+    </item>
+    <item>
+      <title>Connecting the Dots with Context Graphs — Stephen Chin, Neo4j</title>
+      <link>https://vid-analysis.devbionics.com/videos/eW_vxrjvERk.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/eW_vxrjvERk.html</guid>
+      <pubDate>Mon, 18 May 2026 18:40:43 +0000</pubDate>
+      <description>Context graphs can make agent memory and retrieval more structured by connecting enterprise entities, decisions, and traces; the strongest use case is auditable, relationship-heavy context, not replacing all simpler RAG.</description>
+    </item>
+    <item>
+      <title>Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP &amp; Finetuning — Merve Noyan, Hugging Face</title>
+      <link>https://vid-analysis.devbionics.com/videos/OV56RddyFuU.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/OV56RddyFuU.html</guid>
+      <pubDate>Mon, 18 May 2026 18:40:39 +0000</pubDate>
+      <description>The Hugging Face ecosystem is becoming an agent platform: open models, inference routing, MCP, skills, trace datasets, and local/remote agents can be combined into a self-improving workflow, but the talk is more ecosystem tour than proof of self-training.</description>
+    </item>
+    <item>
+      <title>CI/CD Is Dead, Agents Need Continuous Compute and Computers — Hugo Santos and Madison Faulkner</title>
+      <link>https://vid-analysis.devbionics.com/videos/VktrqzQgytY.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/VktrqzQgytY.html</guid>
+      <pubDate>Mon, 18 May 2026 18:40:39 +0000</pubDate>
+      <description>Agent-generated code increases PR/change volume and stresses existing CI queues, caches, merge workflows, and review loops; the “CI/CD is dead” framing is overhyped, but CI infrastructure needs more concurrency-aware orchestration.</description>
+    </item>
+    <item>
+      <title>One Login to Rule Them All: Cross-App Access for MCP — Garrett Galow, WorkOS</title>
+      <link>https://vid-analysis.devbionics.com/videos/EmhRyw6xeT0.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/EmhRyw6xeT0.html</guid>
+      <pubDate>Mon, 18 May 2026 18:40:36 +0000</pubDate>
+      <description>Enterprise MCP adoption is blocked by fragmented OAuth consent and unmanaged standing credentials; Cross-App Access tries to let trusted clients and servers rely on the enterprise IdP for policy-controlled access.</description>
+    </item>
+    <item>
+      <title>Judge the Judge: Building LLM Evaluators That Actually Work with GEPA — Mahmoud Mabrouk, Agenta AI</title>
+      <link>https://vid-analysis.devbionics.com/videos/X4dEHRzBLmc.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/X4dEHRzBLmc.html</guid>
+      <pubDate>Mon, 18 May 2026 18:40:35 +0000</pubDate>
+      <description>Generic “hallucination judge” prompts are weak; useful LLM judges must be calibrated against human-labeled, use-case-specific data and validated like any other model component.</description>
+    </item>
+    <item>
+      <title>Why this Claude Code engineer uses HTML files as AI specs | Thariq Shihipar (Anthropic)</title>
+      <link>https://vid-analysis.devbionics.com/videos/Qrpm7E80wQ0.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/Qrpm7E80wQ0.html</guid>
+      <pubDate>Mon, 18 May 2026 18:40:35 +0000</pubDate>
+      <description>Use HTML, not just Markdown, for agent plans/specs when the audience is a human who must actually review, compare, and steer long-running coding work.</description>
+    </item>
+    <item>
+      <title>Full Walkthrough: Workflow for AI Coding — Matt Pocock</title>
+      <link>https://vid-analysis.devbionics.com/videos/-QFHIoCo-Ko.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/-QFHIoCo-Ko.html</guid>
+      <pubDate>Mon, 18 May 2026 18:40:29 +0000</pubDate>
+      <description>AI coding works best when treated like disciplined software engineering: keep tasks inside the model’s “smart zone,” use grill/PRD/issue slicing loops, parallelize independent work, and maintain human review checkpoints.</description>
+    </item>
+    <item>
+      <title>Build Agents That Run for Hours (Without Losing the Plot) — Ash Prabaker &amp; Andrew Wilson, Anthropic</title>
+      <link>https://vid-analysis.devbionics.com/videos/mR-WAvEPRwE.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/mR-WAvEPRwE.html</guid>
+      <pubDate>Mon, 18 May 2026 16:40:27 +0000</pubDate>
+      <description>Prabaker and Wilson argue that long-running agents do not succeed because of model intelligence alone. They need harnesses: persistent artifacts, clean state, scoped roles, explicit verification, and feedback loops that let agents work across hours or days without losing context, prematurely declaring victory, or mistaking surface-level output for working software.</description>
+    </item>
+    <item>
+      <title>The AI Career Opportunity Nobody is Talking About in 2026</title>
+      <link>https://vid-analysis.devbionics.com/videos/iIfOprq2kCM.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/iIfOprq2kCM.html</guid>
+      <pubDate>Mon, 18 May 2026 16:40:26 +0000</pubDate>
+      <description>Nate Herk argues that the under-discussed AI career opportunity is not only starting an AI automation agency. The bigger and more accessible opportunity for many people is becoming the AI-native version of the function they already know, either by moving from consulting into an in-house role or by being promoted internally because they are already closing the adoption gap.</description>
+    </item>
+    <item>
+      <title>Harnesses in AI: A Deep Dive — Tejas Kumar, IBM</title>
+      <link>https://vid-analysis.devbionics.com/videos/C_GG5g38vLU.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/C_GG5g38vLU.html</guid>
+      <pubDate>Mon, 18 May 2026 08:40:44 +0000</pubDate>
+      <description>Kumar argues that reliability in agent systems comes from the harness: everything around the black-box model that grounds it in a stable environment. A harness includes tools, context management, model selection, agent loops, traces, evaluators, and verification. The key claim is that prompt changes alone are often the wrong lever; the surrounding control system determines whether the agent can act reliably.</description>
+    </item>
+    <item>
+      <title>Why Your AI UX Is Broken (and It’s Not the Model’s Fault) — Mike Christensen, Ably</title>
+      <link>https://vid-analysis.devbionics.com/videos/YNJvm7t3yq8.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/YNJvm7t3yq8.html</guid>
+      <pubDate>Mon, 18 May 2026 08:40:39 +0000</pubDate>
+      <description>Christensen argues that many AI chat products feel broken because their UX architecture assumes a single client-server stream. Direct HTTP/SSE streaming is easy to start with but breaks down for resumability, multiple devices/tabs, live control, interruptions, and human handoff. The proposed pattern is a durable session layer that decouples agents from clients.</description>
+    </item>
+    <item>
+      <title>Every Claude Code User NEEDS To Watch This</title>
+      <link>https://vid-analysis.devbionics.com/videos/8kWONfT_-H8.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/8kWONfT_-H8.html</guid>
+      <pubDate>Mon, 18 May 2026 08:40:37 +0000</pubDate>
+      <description>The video argues that developers should avoid becoming prisoners of one coding-agent vendor. The opening example is Anthropic changing programmatic Claude Code billing, but the broader point is architectural: agent workflows should be portable across models and harnesses because pricing, policy, capabilities, and trust assumptions change quickly.</description>
+    </item>
+    <item>
+      <title>Agentic Search for Context Engineering — Leonie Monigatti, Elastic</title>
+      <link>https://vid-analysis.devbionics.com/videos/ynJyIKwjonM.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/ynJyIKwjonM.html</guid>
+      <pubDate>Mon, 18 May 2026 08:40:33 +0000</pubDate>
+      <description>Monigatti argues that context engineering is mostly agentic search: the core problem is deciding which information from many possible sources enters the context window. Fixed RAG pipelines are often insufficient because agents need to choose tools, rewrite queries, search multiple sources, and perform multi-hop retrieval.</description>
+    </item>
+    <item>
+      <title>Beyond Code Coverage: Functionality Testing with Playwright — Marlene Mhangami, Microsoft</title>
+      <link>https://vid-analysis.devbionics.com/videos/FWEInOtngmM.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/FWEInOtngmM.html</guid>
+      <pubDate>Mon, 18 May 2026 08:40:31 +0000</pubDate>
+      <description>Mhangami’s talk starts from a surge in GitHub commits and asks the right question: more code does not necessarily mean more developer productivity. Her proposed answer is clean-code discipline and functionality testing. In an agentic coding world, TDD and Playwright-style end-to-end tests become more important because agents can create working-looking code faster than humans can manually inspect it.</description>
+    </item>
+    <item>
+      <title>How we solved Context Management in Agents — Sally-Ann Delucia</title>
+      <link>https://vid-analysis.devbionics.com/videos/esY99nYXxR4.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/esY99nYXxR4.html</guid>
+      <pubDate>Mon, 18 May 2026 08:40:31 +0000</pubDate>
+      <description>Delucia argues that context engineering is the central product problem in serious agent systems: the agent must remember what matters and forget what does not. Her team’s Alex agent ran into the classic loop where the same traces/spans it needed to analyze also overwhelmed the context window. The talk’s most useful framing is that context management is not only an engineering optimization; it controls the user experience and the agent’s ability to reason over prior work.</description>
+    </item>
+    <item>
+      <title>Agents Don’t Do Standups: Building the Post-Engineer Engineering Org — Mike Spitz, PFF</title>
+      <link>https://vid-analysis.devbionics.com/videos/VMemhtlsoNk.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/VMemhtlsoNk.html</guid>
+      <pubDate>Mon, 18 May 2026 06:40:48 +0000</pubDate>
+      <description>Spitz argues that once AI agents become the implementation bottleneck-breaker, traditional engineering rituals designed around human coordination — especially Scrum ceremonies — should be reconsidered. PFF’s case study claims two strong engineers using agents delivered a high-output product initiative faster than a larger traditional team, with fewer ceremonies and heavier reliance on specs, LDDs, automated tickets, review gates, and customer feedback.</description>
+    </item>
+    <item>
+      <title>Gateways are All You Need — Karan Sampath, Anthropic</title>
+      <link>https://vid-analysis.devbionics.com/videos/CD6R4Wf3jnY.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/CD6R4Wf3jnY.html</guid>
+      <pubDate>Mon, 18 May 2026 06:40:47 +0000</pubDate>
+      <description>Sampath argues that enterprise MCP adoption is blocked by observability, access control, security, credential management, and deployment friction. His solution is a gateway: a trusted middle layer between many MCP servers and many MCP clients that centralizes auth, routing, observability, tunnels, registry, and developer tooling.</description>
+    </item>
+    <item>
+      <title>How Building with AI Can Double the Throughput of Your Engineering Team — Brian Scanlan, Intercom</title>
+      <link>https://vid-analysis.devbionics.com/videos/4_VQBbs2iQA.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/4_VQBbs2iQA.html</guid>
+      <pubDate>Mon, 18 May 2026 06:40:47 +0000</pubDate>
+      <description>Scanlan argues that Intercom doubled engineering throughput by making AI-assisted development an organizational platform rather than an individual autocomplete habit. The talk’s key components are: executive pressure, one main agent platform, internal skills/plugins, hooks, telemetry, backtesting, automatic review for safe PRs, and a culture where engineers “move up the stack” from typing code to designing/operating agent workflows.</description>
+    </item>
+    <item>
+      <title>Everything You Need To Know About Agent Observability — Danny Gollapalli &amp; Zubin Koticha, Raindrop</title>
+      <link>https://vid-analysis.devbionics.com/videos/-aM2EDTiaMs.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/-aM2EDTiaMs.html</guid>
+      <pubDate>Mon, 18 May 2026 06:40:44 +0000</pubDate>
+      <description>Raindrop argues that traditional evals are insufficient for production agents because agents are non-deterministic, long-running, tool-using, and exposed to an effectively unbounded input/output space. The proposed answer is production monitoring built around explicit signals, semantic classifiers, regex canaries, experiments, and self-diagnostics.</description>
+    </item>
+    <item>
+      <title>I’m done.</title>
+      <link>https://vid-analysis.devbionics.com/videos/131yAOjxHHQ.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/131yAOjxHHQ.html</guid>
+      <pubDate>Thu, 14 May 2026 18:40:33 +0000</pubDate>
+      <description>Theo argues that Anthropic’s new Claude Agent SDK monthly credit is framed as an extra benefit but functionally cuts the value of Claude subscriptions for programmatic and third-party Claude Code workflows. His strongest point is that Anthropic now draws a billing boundary between interactive first-party usage and non-interactive or SDK-based usage, and that boundary hits tools like T3 Code, Zed integrations, OpenClaw-style workflows, CI integrations, and claude -p scripts.</description>
+    </item>
+    <item>
+      <title>I stopped using /grill-me for coding. Here’s what I use instead:</title>
+      <link>https://vid-analysis.devbionics.com/videos/6BB6exR8Zd8.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/6BB6exR8Zd8.html</guid>
+      <pubDate>Thu, 14 May 2026 18:40:32 +0000</pubDate>
+      <description>The video’s thesis is that /grill-me is excellent for surfacing ambiguities, but it loses value in codebases because the hard-won shared language often disappears after the conversation. /grill-with-docs improves the loop by grounding the interview in existing domain documentation, updating CONTEXT.md as language crystallizes, and adding ADRs when decisions are too consequential to leave implicit.</description>
+    </item>
+    <item>
+      <title>Stop letting your agents write Markdown.</title>
+      <link>https://vid-analysis.devbionics.com/videos/S9EGx6ik-18.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/S9EGx6ik-18.html</guid>
+      <pubDate>Thu, 14 May 2026 16:40:56 +0000</pubDate>
+      <description>Theo evaluates the claim that agents should produce HTML instead of Markdown for richer, more navigable artifacts, agreeing for visual/interactive outputs while pushing back on overbroad “HTML is the new Markdown” rhetoric.</description>
+    </item>
+    <item>
+      <title>I wish this was clickbait</title>
+      <link>https://vid-analysis.devbionics.com/videos/gILMoijqeGA.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/gILMoijqeGA.html</guid>
+      <pubDate>Thu, 14 May 2026 16:40:56 +0000</pubDate>
+      <description>Theo argues Bun's possible Zig-to-Rust rewrite is both exciting and unsettling: it may address stability and ecosystem concerns, but it also validates doubts about Bun's future and creates migration risk for tools built deeply on Bun-specific APIs.</description>
+    </item>
+    <item>
+      <title>Codex Just Became THE BEST Long Running Agentic Harness</title>
+      <link>https://vid-analysis.devbionics.com/videos/nOFordZCyzs.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/nOFordZCyzs.html</guid>
+      <pubDate>Thu, 14 May 2026 16:40:49 +0000</pubDate>
+      <description>The creator argues Codex's experimental Goals feature makes long-running autonomous coding easier by turning a hand-rolled Ralph loop into a built-in /goal workflow with continuation, budget handling, pause/resume, and completion state.</description>
+    </item>
+    <item>
+      <title>The EXACT Tools That Make Your AI Apps 10x Safer</title>
+      <link>https://vid-analysis.devbionics.com/videos/MlMXUhKL7OY.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/MlMXUhKL7OY.html</guid>
+      <pubDate>Thu, 14 May 2026 16:40:48 +0000</pubDate>
+      <description>The creator argues non-technical builders need a simple safety workflow: use Git branches and pull requests, then run dedicated AI code reviewers on the diff before shipping AI-generated code.</description>
+    </item>
+    <item>
+      <title>Your Claude Code Agentic OS Sucks</title>
+      <link>https://vid-analysis.devbionics.com/videos/d86VCtQ_dN8.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/d86VCtQ_dN8.html</guid>
+      <pubDate>Thu, 14 May 2026 16:40:47 +0000</pubDate>
+      <description>The creator argues that an “agentic OS” is not primarily a fancy dashboard. The real value is a skill and automation backbone, supported by a memory layer; dashboards become useful only after the underlying workflows are reliable.</description>
+    </item>
+    <item>
+      <title>Anthropic's "dedicated monthly credit" is actually a huge cut</title>
+      <link>https://vid-analysis.devbionics.com/videos/lNOQaakmyDU.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/lNOQaakmyDU.html</guid>
+      <pubDate>Thu, 14 May 2026 16:40:43 +0000</pubDate>
+      <description>The creator argues Anthropic's dedicated monthly credit for programmatic Claude usage clarifies rules but effectively cuts heavy AFK/background agent users because those workloads now draw from a separate, smaller credit bucket rather than the broader subscription allowance.</description>
+    </item>
+    <item>
+      <title>32 Tricks to Level Up Claude Code in 16 Mins</title>
+      <link>https://vid-analysis.devbionics.com/videos/jqoFP9QapXI.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/jqoFP9QapXI.html</guid>
+      <pubDate>Thu, 14 May 2026 16:40:43 +0000</pubDate>
+      <description>The video presents Claude Code as a workflow environment rather than a chatbox: initialize project context, monitor token/cost state, keep context small, plan before acting, use subagents and skills, and embed self-checks so the agent validates its own work.</description>
+    </item>
+    <item>
+      <title>New Skills! /handoff, /prototype, /review and /writing- | Skills Changelog</title>
+      <link>https://vid-analysis.devbionics.com/videos/DNqsMXH6Eog.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/DNqsMXH6Eog.html</guid>
+      <pubDate>Thu, 14 May 2026 16:40:42 +0000</pubDate>
+      <description>Matt Pocock argues that agent work improves when repeated collaboration patterns become explicit skills: handoff for context transfer, prototype for reducing design uncertainty, XML-tagged prompt sections to control instruction priority, and review/writing skills for repeatable quality loops.</description>
+    </item>
+    <item>
+      <title>Every Level of Claude Explained in 21 Minutes — analysis</title>
+      <link>https://vid-analysis.devbionics.com/videos/ZRb7D6R64hM.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/ZRb7D6R64hM.html</guid>
+      <pubDate>Tue, 12 May 2026 18:40:46 +0000</pubDate>
+      <description>The video argues that Claude users progress through five practical levels:</description>
+    </item>
+    <item>
+      <title>Hermes Agent: Zero to Personal AI Assistant (1 Hour Course)</title>
+      <link>https://vid-analysis.devbionics.com/videos/gb5TlGw6Uks.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/gb5TlGw6Uks.html</guid>
+      <pubDate>Sun, 10 May 2026 08:40:53 +0000</pubDate>
+      <description>Hermes is positioned as a self-hosted personal AI assistant that is most useful when it is treated as persistent infrastructure: memory files for durable context, skills for repeatable workflows, soul/personality files for behavior, cron jobs for proactive work, and Git-backed backups for survivability. The video’s practical point is not “Hermes replaces Claude Code,” but “Hermes is a good phone-first/on-the-go automation companion while coding agents remain better for desk work.”</description>
+    </item>
+    <item>
+      <title>I Open-Sourced My Own AFK Software Factory — analysis</title>
+      <link>https://vid-analysis.devbionics.com/videos/E5-QK3CDVQM.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/E5-QK3CDVQM.html</guid>
+      <pubDate>Fri, 08 May 2026 08:08:49 +0000</pubDate>
+      <description>Matt Pocock argues that useful AFK coding agents need sandboxed execution. Permission prompts make fully unattended work impractical; pure YOLO mode is unsafe; and many existing options are either too service-oriented or awkward to program. His answer is Sandcastle, an open-source TypeScript library that lets developers call run() with an agent, sandbox provider, and prompt, then compose planner/implementer/reviewer/merger workflows.</description>
+    </item>
+    <item>
+      <title>Overwhelmed By AI? Just Copy My Tech Stack — analysis</title>
+      <link>https://vid-analysis.devbionics.com/videos/35WuZxbAY68.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/35WuZxbAY68.html</guid>
+      <pubDate>Fri, 08 May 2026 07:53:08 +0000</pubDate>
+      <description>The creator argues that AI overwhelm comes from chasing every new tool. His answer is a lean stack, a personal North Star, and a decision framework: use daily drivers, keep specialists for specific jobs, experiment intentionally, and “graduate” tools once their useful features are absorbed into your own system.</description>
+    </item>
+    <item>
+      <title>STOP Using Claude Code OR Codex — analysis</title>
+      <link>https://vid-analysis.devbionics.com/videos/VdxUKiF8CWI.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/VdxUKiF8CWI.html</guid>
+      <pubDate>Fri, 08 May 2026 07:52:58 +0000</pubDate>
+      <description>The creator argues that choosing between Claude Code and Codex is now the wrong framing. His preferred setup is to use both tools in the same project, let them critique each other, and stay tool-agnostic because agent capabilities and pricing change quickly.</description>
+    </item>
+    <item>
+      <title>Harness Engineering: How to Build Software When Humans Steer, Agents Execute — Ryan Lopopolo, OpenAI</title>
+      <link>https://vid-analysis.devbionics.com/videos/am_oeAoUhew.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/am_oeAoUhew.html</guid>
+      <pubDate>Thu, 07 May 2026 03:52:30 +0000</pubDate>
+      <description>When agents can produce abundant code, the engineering bottleneck moves from implementation to harness design: the systems, repository structure, skills, tests, lints, prompts, documentation, review agents, observability, and feedback loops that let humans steer and agents execute reliably.</description>
+    </item>
+    <item>
+      <title>Anthropic's Boris Cherny: Why Coding Is Solved, and What Comes Next</title>
+      <link>https://vid-analysis.devbionics.com/videos/SlGRN8jh2RI.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/SlGRN8jh2RI.html</guid>
+      <pubDate>Thu, 07 May 2026 03:52:27 +0000</pubDate>
+      <description>The talk’s core thesis is that coding, for some people and some codebases, is shifting from manual code writing to orchestration of AI agents. “Coding is solved” is intentionally provocative: Boris means the code-writing act is solved in his environment, not that software engineering, product judgment, security, reliability, cost control, and domain understanding are solved.</description>
+    </item>
+    <item>
+      <title>Claude Code + Paperclip Just Destroyed OpenClaw</title>
+      <link>https://vid-analysis.devbionics.com/videos/HJ-dwefABss.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/HJ-dwefABss.html</guid>
+      <pubDate>Thu, 07 May 2026 03:52:25 +0000</pubDate>
+      <description>The video argues that Paperclip plus Claude Code turns scattered terminal-based agent work into an “AI company” with agents, org charts, projects, approvals, budgets, heartbeats, routines, and skills. My read: the valuable idea is not “zero-human companies”; it is a project-management and governance layer for multiple coding/ops agents that would otherwise live in disconnected terminals.</description>
+    </item>
+    <item>
+      <title>Learn 90% of Claude Code in 31 Minutes — analysis</title>
+      <link>https://vid-analysis.devbionics.com/videos/TwkdDcO4vWQ.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/TwkdDcO4vWQ.html</guid>
+      <pubDate>Wed, 06 May 2026 09:52:26 +0000</pubDate>
+      <description>The video’s useful thesis is: Claude Code becomes much more effective when treated as an agentic development environment rather than a chat box. The practical loop is: pick an environment, use plan mode, supply outcome/examples/expert questions, add skills for repeatable behavior, manage context aggressively, and connect CLI tools for verification/deployment.</description>
+    </item>
+    <item>
+      <title>18 Claude Code Token Hacks in 18 Minutes</title>
+      <link>https://vid-analysis.devbionics.com/videos/49V-5Ock8LU.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/49V-5Ock8LU.html</guid>
+      <pubDate>Wed, 06 May 2026 07:52:56 +0000</pubDate>
+      <description>The video argues that Claude Code limits feel worse because long sessions repeatedly reload conversation history, instructions, command outputs, and project context. The proposed solution is token hygiene: shorter sessions, better scoping, smaller outputs, model routing, and explicit context management.</description>
+    </item>
+    <item>
+      <title>9 Hacks to Use Claude Code Better Than 90% of People (In 9 Minutes)</title>
+      <link>https://vid-analysis.devbionics.com/videos/XkSBO-CZDFs.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/XkSBO-CZDFs.html</guid>
+      <pubDate>Wed, 06 May 2026 07:52:56 +0000</pubDate>
+      <description>The video is a rapid list of Claude Code workflow optimizations: choose CLIs over unnecessary MCPs, use side conversations/commands/hooks, manage context aggressively, and encode repeatable tool knowledge as skills or docs.</description>
+    </item>
+    <item>
+      <title>12 Hidden Settings To Enable In Your Claude Code Setup</title>
+      <link>https://vid-analysis.devbionics.com/videos/pDoBe4qbFPE.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/pDoBe4qbFPE.html</guid>
+      <pubDate>Wed, 06 May 2026 07:52:55 +0000</pubDate>
+      <description>The video says Claude Code has many useful configuration, retention, rule-loading, hook, and open-source companion features that are underused because they live in settings files, environment variables, or commands rather than the obvious UI.</description>
+    </item>
+    <item>
+      <title>Claude Code + LightRAG = UNSTOPPABLE</title>
+      <link>https://vid-analysis.devbionics.com/videos/QHlB-RJfx8w.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/QHlB-RJfx8w.html</guid>
+      <pubDate>Wed, 06 May 2026 07:52:54 +0000</pubDate>
+      <description>The video argues that “RAG is dead” is wrong: larger context windows reduce some retrieval needs, but they do not eliminate the need for external memory, updateable corpora, cheaper retrieval, and relationship-aware search. The specific recommendation is LightRAG: a graph-enhanced RAG system that Claude Code can help set up quickly.</description>
+    </item>
+    <item>
+      <title>Build &amp; Sell Claude Code Operating Systems (2+ Hour Course)</title>
+      <link>https://vid-analysis.devbionics.com/videos/bCljOfCH8Ms.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/bCljOfCH8Ms.html</guid>
+      <pubDate>Sun, 03 May 2026 16:12:00 +0000</pubDate>
+      <description>The video reframes AI automation as an operating system: a durable, tool-agnostic layer that knows the business, reaches the right data, performs useful actions, and eventually runs on cadence.</description>
+    </item>
+    <item>
+      <title>Claude Video Editing Just Became Unrecognizable</title>
+      <link>https://vid-analysis.devbionics.com/videos/Aw3BkmhYu4I.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/Aw3BkmhYu4I.html</guid>
+      <pubDate>Sun, 03 May 2026 16:11:48 +0000</pubDate>
+      <description>Claude Code becomes useful for video editing when it orchestrates specialized tools instead of pretending to be a video editor itself: transcript/cut detection, timeline handoff, motion graphics, and rendering are separate responsibilities.</description>
+    </item>
+    <item>
+      <title>I Tried 100+ Claude Code Skills. These 6 Are The Best</title>
+      <link>https://vid-analysis.devbionics.com/videos/eRS3CmvrOvA.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/eRS3CmvrOvA.html</guid>
+      <pubDate>Sun, 03 May 2026 16:11:48 +0000</pubDate>
+      <description>The video is a practical sales/operator list: the Claude Code skills worth selling are the ones that turn one-off AI into repeatable business systems.</description>
+    </item>
+    <item>
+      <title>5 Claude Code skills I use every single day</title>
+      <link>https://vid-analysis.devbionics.com/videos/EJyuu6zlQCg.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/EJyuu6zlQCg.html</guid>
+      <pubDate>Sun, 03 May 2026 16:11:47 +0000</pubDate>
+      <description>The video is less about five random skills and more about a development pipeline: interrogate the idea, write a PRD, slice it into issues, implement with TDD, and periodically improve architecture.</description>
+    </item>
+    <item>
+      <title>CLAUDE CODE ADVANCED COURSE — 3 HOURS</title>
+      <link>https://vid-analysis.devbionics.com/videos/UPtmKh1vMN8.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/UPtmKh1vMN8.html</guid>
+      <pubDate>Sun, 03 May 2026 15:58:37 +0000</pubDate>
+      <description>This course is a broad operating manual for advanced Claude Code users: memory design, prompt architecture, harnesses, skills, subagents, browser automation, multi-agent orchestration, workspace organization, and security all matter more as the work becomes real.</description>
+    </item>
+    <item>
+      <title>FULL Guide to Becoming a Principled Agentic Engineer (Build Anything with AI)</title>
+      <link>https://vid-analysis.devbionics.com/videos/luBkbzjo-TA.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/luBkbzjo-TA.html</guid>
+      <pubDate>Sun, 03 May 2026 15:58:28 +0000</pubDate>
+      <description>The video argues for “principled agentic engineering”: keep humans responsible for planning and validation, but use coding agents as leverage inside a structured loop. The method is intentionally simple: brainstorm with the agent, clarify assumptions, convert the result into PRDs/tickets, implement with a repeatable PIV loop, and feed lessons back into the AI layer.</description>
+    </item>
+    <item>
+      <title>Paperclip: Hire AI Agents Like Employees (Live Demo)</title>
+      <link>https://vid-analysis.devbionics.com/videos/C3-4llQYT8o.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/C3-4llQYT8o.html</guid>
+      <pubDate>Sun, 03 May 2026 15:52:29 +0000</pubDate>
+      <description>Paperclip is an open-source orchestration layer for managing AI agents as if they were employees: roles, org charts, goals, budgets, skills, routines, and traceable work history.</description>
+    </item>
+    <item>
+      <title>How to Build Claude Agent Teams Better Than 99% of People</title>
+      <link>https://vid-analysis.devbionics.com/videos/vDVSGVpB2vc.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/vDVSGVpB2vc.html</guid>
+      <pubDate>Sun, 03 May 2026 15:52:20 +0000</pubDate>
+      <description>Agent Teams are more powerful than ordinary subagents when teammates need to message each other, share a task list, challenge work, and iterate before returning a final result.</description>
+    </item>
+    <item>
+      <title>Claude Just Changed the Stock Market Forever! (Tutorial)</title>
+      <link>https://vid-analysis.devbionics.com/videos/lH5wrfNwL3k.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/lH5wrfNwL3k.html</guid>
+      <pubDate>Sun, 03 May 2026 15:52:12 +0000</pubDate>
+      <description>The creator claims Claude can connect to Alpaca, market data, congressional/whale-trade feeds, and options workflows to automate retail trading strategies, including trailing stops, copy trading, and the wheel strategy.</description>
+    </item>
+    <item>
+      <title>This Claude Skill Creates UGC Videos on Autopilot (Claude + Seedance 2.0)</title>
+      <link>https://vid-analysis.devbionics.com/videos/jQO9RAmy5lk.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/jQO9RAmy5lk.html</guid>
+      <pubDate>Sun, 03 May 2026 15:52:05 +0000</pubDate>
+      <description>The creator argues that Claude Code plus Arcads/Seedance 2.0 can automate AI-generated UGC ads: analyze a winning social ad, adapt it to a new product, call Arcads via API, and stitch/render variants with minimal manual work.</description>
+    </item>
+    <item>
+      <title>Top 10 Claude Code Frontend Design Skills, Plugins, &amp; CLIs</title>
+      <link>https://vid-analysis.devbionics.com/videos/Q9ty3eopOPs.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/Q9ty3eopOPs.html</guid>
+      <pubDate>Sun, 03 May 2026 12:13:10 +0000</pubDate>
+      <description>This video is a toolkit tour for one specific pain point: Claude Code can generate working frontend code, but its default visual taste is weak and repetitive. The creator’s useful thesis is that frontend quality improves when you stop asking the agent to invent taste from scratch and instead give it stronger design inputs: anti-pattern rules, design-system markdown, extracted site references, component libraries, typography choices, visual exploration tools, and automated interaction testing.</description>
+    </item>
+    <item>
+      <title>Top 10 NEW Open Source Claude Code Tools (May)</title>
+      <link>https://vid-analysis.devbionics.com/videos/6cYBFfA7Nyk.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/6cYBFfA7Nyk.html</guid>
+      <pubDate>Sun, 03 May 2026 09:52:10 +0000</pubDate>
+      <description>The video is a fast filter over the current open-source Claude Code / coding-agent ecosystem. The creator’s real argument is not “install every shiny repo.” It is: coding agents are becoming more useful when wrapped in small, purpose-built operating layers — brevity constraints, structured memory, video/frame extraction, design-system references, token/cost observability, browser learning loops, and workflow-building MCPs.</description>
+    </item>
+    <item>
+      <title>How to Build 24/7 Claude Agents. Easy.</title>
+      <link>https://vid-analysis.devbionics.com/videos/ehg4fhydTgs.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/ehg4fhydTgs.html</guid>
+      <pubDate>Sat, 02 May 2026 11:52:29 +0000</pubDate>
+      <description>Claude Code routines turn Claude from a local, laptop-dependent coding assistant into a remotely triggered automation worker. You can schedule it, call it from APIs/webhooks/GitHub events, give it a repo and cloud environment, and let it run one-shot agent tasks without keeping your computer open.</description>
+    </item>
+    <item>
+      <title>I Gave OpenClaw $10,000 to Trade Stocks</title>
+      <link>https://vid-analysis.devbionics.com/videos/eu8UJtuIi-E.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/eu8UJtuIi-E.html</guid>
+      <pubDate>Sat, 02 May 2026 11:52:19 +0000</pubDate>
+      <description>The video is a real-money stress test of autonomous AI agents: can OpenClaw run a trading strategy with $10,000 for 30 days, monitor markets, adjust positions, and communicate progress with minimal human intervention?</description>
+    </item>
+    <item>
+      <title>OpenAI Image 2 is Nuts. Here are 10 Ways to Use it.</title>
+      <link>https://vid-analysis.devbionics.com/videos/GY-kAiZGLOw.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/GY-kAiZGLOw.html</guid>
+      <pubDate>Sat, 02 May 2026 11:52:10 +0000</pubDate>
+      <description>The video argues that OpenAI / ChatGPT Images 2.0 has crossed an important threshold: it is no longer just “pretty good at pictures,” but strong enough for practical commercial workflows where text, realism, layout, product detail, and visual editing used to break image models.</description>
+    </item>
+    <item>
+      <title>Hermes Agent Just 10x’d Everyone’s Claude Code</title>
+      <link>https://vid-analysis.devbionics.com/videos/1nDiiXfMUK4.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/1nDiiXfMUK4.html</guid>
+      <pubDate>Sat, 02 May 2026 07:00:46 +0000</pubDate>
+      <description>The video argues for a “personal agent on a VPS” workflow: run Hermes as the always-on orchestrator, connect it to chat surfaces like Discord, give it Claude Code as a coding worker, then wire GitHub and Vercel so plain-English messages can become deployed software changes.</description>
+    </item>
+    <item>
+      <title>How To De-Slop A Codebase Ruined By AI (with one skill)</title>
+      <link>https://vid-analysis.devbionics.com/videos/3MP8D-mdheA.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/3MP8D-mdheA.html</guid>
+      <pubDate>Sat, 02 May 2026 07:00:36 +0000</pubDate>
+      <description>AI does not make code architecture irrelevant. It makes architecture debt compound faster. If agents repeatedly change a codebase without understanding its module boundaries, they create duplicated rules, weak seams, and shallow abstractions. The cure is not “use less AI”; it is to make the architecture more legible to both humans and agents through deep modules, explicit interfaces, named seams, adapters, locality, and leverage.</description>
+    </item>
+    <item>
+      <title>ANOTHER Open Source Repo Just Cloned Claude Design</title>
+      <link>https://vid-analysis.devbionics.com/videos/BGQ9i3fvNds.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/BGQ9i3fvNds.html</guid>
+      <pubDate>Sat, 02 May 2026 04:14:09 +0000</pubDate>
+      <description>Open Design is an early but credible open-source, GUI-based alternative to Claude Design: essentially Huashu Design plus a polished interface, agent-harness flexibility, built-in design systems, and media-provider hooks. It is not as mature or fast as Claude Design yet, but it already covers enough of the prototype/deck workflow to matter — especially for users frustrated by Claude Design usage limits.</description>
+    </item>
+    <item>
+      <title>LLM codegen fails and how to stop 'em — Danilo Campos, PostHog</title>
+      <link>https://vid-analysis.devbionics.com/videos/juoNbJiZUi0.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/juoNbJiZUi0.html</guid>
+      <pubDate>Fri, 01 May 2026 21:52:03 +0000</pubDate>
+      <description>Autonomous codegen works when you stop treating the model as a magic programmer and start treating it as a capable but context-hungry agent that needs fresh documentation, good examples, sequenced instructions, constrained tools, and feedback loops.</description>
+    </item>
+    <item>
+      <title>Why building eval platforms is hard — Phil Hetzel, Braintrust</title>
+      <link>https://vid-analysis.devbionics.com/videos/_fQ7Z_Wfouk.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/_fQ7Z_Wfouk.html</guid>
+      <pubDate>Fri, 01 May 2026 21:52:01 +0000</pubDate>
+      <description>An eval platform starts as “a spreadsheet plus a for-loop,” but it quickly becomes a serious agent-quality data system. The real problem is not drawing a comparison UI. The hard part is supporting a continuous loop between offline evals and production observability while storing, searching, scoring, and analyzing enormous semi-structured agent traces.</description>
+    </item>
+    <item>
+      <title>“Software Fundamentals Matter More Than Ever” — Matt Pocock</title>
+      <link>https://vid-analysis.devbionics.com/videos/v4F1gFy-hqg.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/v4F1gFy-hqg.html</guid>
+      <pubDate>Fri, 01 May 2026 17:52:13 +0000</pubDate>
+      <description>Matt Pocock argues that AI coding does not make software fundamentals obsolete. It makes them more valuable. If AI can generate code faster, then bad architecture, unclear requirements, weak feedback loops, and ambiguous language become more expensive because they let the agent create chaos at machine speed.</description>
+    </item>
+    <item>
+      <title>Andrej Karpathy: From Vibe Coding to Agentic Engineering</title>
+      <link>https://vid-analysis.devbionics.com/videos/96jN2OCOfLs.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/96jN2OCOfLs.html</guid>
+      <pubDate>Fri, 01 May 2026 17:52:10 +0000</pubDate>
+      <description>Karpathy’s central claim is that AI coding has crossed from “helpful autocomplete” into a new engineering substrate: LLMs are becoming a programmable computer for broad information work, not just faster code generation. The practical shift is from writing every instruction yourself to designing context, specifications, feedback loops, and agent-native environments where the model can do real work while a human preserves judgment, taste, and accountability.</description>
+    </item>
+    <item>
+      <title>Claude Design 2 HOUR COURSE (Beginner to Pro)</title>
+      <link>https://vid-analysis.devbionics.com/videos/ovabeVoWrA0.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/ovabeVoWrA0.html</guid>
+      <pubDate>Fri, 01 May 2026 15:52:18 +0000</pubDate>
+      <description>This is a long practical walkthrough of Claude Design as a design-production environment: use normal Claude for strategy and thinking, then use Claude Design when you need visual artifacts — design systems, pitch decks, landing pages, app prototypes, and launch videos.</description>
+    </item>
+    <item>
+      <title>Building pi in a World of Slop — Mario Zechner</title>
+      <link>https://vid-analysis.devbionics.com/videos/RjfbvDXpFls.html</link>
+      <guid isPermaLink="true">https://vid-analysis.devbionics.com/videos/RjfbvDXpFls.html</guid>
+      <pubDate>Fri, 01 May 2026 11:52:04 +0000</pubDate>
+      <description>Mario argues that current AI coding culture is drowning in “slop”: too much generated code, too little understanding, too many brittle abstractions, and agent tools that hide or mutate context. His answer is pi: a minimal, malleable coding-agent harness where the user and agent control the workflow instead of being boxed into Claude Code/OpenCode-style assumptions.</description>
+    </item>
+  </channel>
+</rss>
