@@ -1,0 +1,12 @@
+# BEGIN video RSS headers
+/index.xml
+  Content-Type: application/rss+xml; charset=utf-8
+  Cache-Control: public, max-age=300, must-revalidate
+  X-Content-Type-Options: nosniff
+
+/videos/index.xml
+  Content-Type: application/rss+xml; charset=utf-8
+  Cache-Control: public, max-age=300, must-revalidate
+  X-Content-Type-Options: nosniff
+
+# END video RSS headers
